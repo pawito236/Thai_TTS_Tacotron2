@@ -11,6 +11,9 @@
 สำหรับโมเดลเสียง tacotron2 การใช้ phoneme แทน wordseg จะช่วยแก้ปัญหาการอ่านผิด ๆ ถูก ๆ ที่เคยเกิดขึ้น ยิ่งไปกว่านั้น จำนวน unique word จะลดลง ซึ่งจะช่วยให้ node network ลดลงด้วย
 ทั้งนี้ เวลา Inference เราก็ต้องส่ง phoneme เข้าไป แทนที่จะเป็นประโยคหรือเป็นคำ ซึ่งอาจจะเพิ่มความยุ่งยากในการแปลงเป็น phoneme เอาเข้าโมเดล แต่ก็เป็นการ Trade-off ระหว่าง preprocess กับ คุณภาพการอ่านที่ดีขึ้น
 
+## Demo [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pHSM8ZsYHsbXKvd0lE4RWI-61iFV8cR7?usp=sharing)
+[Demo TTS Tacotron2 with G2P model](https://medium.com/@pawito236/demo-tts-tacotron2-with-g2p-model-e4006fc831ba) การสังเคราะห์เสียงภาษาไทยด้วย Tacotron 2 ร่วมกับ G2P model
+
 ## Training G2P seq-to-seq model
 [Train G2P seq-to-seq](https://medium.com/@pawito236/thai-g2p-seq-to-seq-a1eb96c3be18)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qmJMbBn0Yp0-Sakej3ADDdWZKVmINCfY?usp=sharing)
 
